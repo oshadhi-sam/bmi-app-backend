@@ -1,0 +1,15 @@
+com/example/bmi/model/WeatherResponse$Clouds.class
+com/example/bmi/model/WeatherResponse$Sys.class
+com/example/bmi/model/WeatherResponse$Wind.class
+com/example/bmi/model/WeatherResponse$Main.class
+com/example/bmi/repository/BmiRepository.class
+com/example/bmi/model/WeatherResponse$Coord.class
+com/example/bmi/controller/WeatherController.class
+com/example/bmi/model/BmiBean.class
+com/example/bmi/model/WeatherResponse$Weather.class
+com/example/bmi/controller/BmiController.class
+com/example/bmi/service/BmiServiceImpl.class
+com/example/bmi/service/BmiService.class
+com/example/bmi/model/WeatherResponse$Rain.class
+com/example/bmi/BmiCalculatorApplication.class
+com/example/bmi/model/WeatherResponse.class
