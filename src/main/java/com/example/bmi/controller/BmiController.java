@@ -7,7 +7,6 @@ package com.example.bmi.controller;
 import com.example.bmi.dto.BmiBeanDto;
 import com.example.bmi.model.BmiBean;
 import com.example.bmi.service.BmiService;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -22,7 +21,7 @@ public class BmiController {
     }
 
     @PostMapping("/bmi")
-    public BmiBean calculateUserBMI(BmiBeanDto bmiBean) {
+    public BmiBean calculateUserBMI(@RequestBody  BmiBeanDto bmiBean) {
 
         BmiBean input = new BmiBean();
         input.setHeight(bmiBean.getHeight());
